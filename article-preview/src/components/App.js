@@ -1,6 +1,8 @@
 import React from "react";
 import avatar from "../assets/images/avatar-michelle.jpg";
 import cover from "../assets/images/drawers.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShare } from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
   return (
@@ -28,7 +30,7 @@ const App = () => {
               </p>
             </div>
             <div className="social-share">
-              <span className="share-btn">Share</span>
+              <button type="button" className="share-btn"><FontAwesomeIcon icon={faShare} /></button>
             </div>
           </div>
         </div>

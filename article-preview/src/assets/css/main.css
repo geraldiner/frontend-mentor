@@ -37,21 +37,15 @@ h6 {
 
 .preview {
   margin: 200px auto;
-  width: 660px;
-  height: max-content;
+  width: 680px;
+  height: 260px;
   background: #fff;
   display: flex;
 }
 
-.description h3 {
-  font-size: 21px;
-  color: var(--dark-gray-blue);
-  line-height: 31.5px;
-}
-
 .cover-img {
-  min-width: max-content;
-  height: initial;
+  height: 100%;
+  width: 260px;
   overflow: hidden;
 }
 
@@ -62,13 +56,20 @@ h6 {
 }
 
 .description {
-  width: 580px;
-  padding: 2rem;
+  width: calc(680px - 260px);
+  padding: 1.5rem 2rem;
+}
+
+.description h3 {
+  font-size: 18px;
+  color: var(--dark-gray-blue);
+  line-height: 27px;
 }
 
 .post-meta {
   display: flex;
   height: 40px;
+  justify-content: space-between;
 }
 
 .author-info {
@@ -94,4 +95,32 @@ h6 {
   border-radius: 50%;
   height: 100%;
   width: auto;
+}
+
+.social-share {
+  align-self: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social-share button {
+  color: var(--desat-dark-blue);
+  border: none;
+  cursor: pointer;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  font-size: 16px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light-gray-blue);
+  transition: color 0.3s ease-in-out;
+  transition: background 0.3s linear;
+}
+
+.social-share button:hover {
+  background: var(--dark-gray-blue);
+  color: var(--light-gray-blue);
 }
