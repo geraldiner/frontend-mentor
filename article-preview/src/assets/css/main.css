@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+:root {
+  --dark-gray-blue: hsl(217, 19%, 35%);
+  --desat-dark-blue: hsl(214, 17%, 51%);
+  --gray-blue: hsl(212, 23%, 69%);
+  --light-gray-blue: hsl(210, 46%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+  font-size: 13px;
+  line-height: 150%;
+  background-color: var(--light-gray-blue);
+  color: var(--desat-dark-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.preview {
+  margin: 200px auto;
+  width: 660px;
+  height: max-content;
+  background: #fff;
+  display: flex;
+}
+
+.description h3 {
+  font-size: 21px;
+  color: var(--dark-gray-blue);
+  line-height: 31.5px;
+}
+
+.cover-img {
+  min-width: max-content;
+  height: initial;
+  overflow: hidden;
+}
+
+.cover-img img {
+  width: 100%;
+  height: 100%;
+  width: auto;
+}
+
+.description {
+  width: 580px;
+  padding: 2rem;
+}
+
+.post-meta {
+  display: flex;
+  height: 40px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+}
+
+.author-info span {
+  display: block;
+  margin: 0.15rem 1rem;
+}
+
+.author-info .author-name {
+  font-weight: bold;
+  color: var(--dark-gray-blue);
+}
+
+.author-info .post-date {
+  color: var(--gray-blue);
+}
+
+.post-meta .avatar {
+  border-radius: 50%;
+  height: 100%;
+  width: auto;
+}
