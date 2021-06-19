@@ -2,6 +2,15 @@
   "name": "article-preview",
   "version": "0.1.0",
   "private": true,
+  "tags": [
+    "react",
+    "nodejs",
+    "html",
+    "css",
+    "javascript",
+    "ui design",
+    "UI"
+  ],
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
