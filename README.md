@@ -12,7 +12,7 @@ Check the README file in each exercise to see the specifics.
 
 ## Projects:
 
-- Article Preview Component [Code](https://github.com/geraldiner/frontend-mentor/tree/master/article-preview) [Challenge](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
+- Article Preview Component [[Code]](https://github.com/geraldiner/frontend-mentor/tree/master/article-preview) [[Challenge]](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
 
 
 <!-- ## Optimizations
