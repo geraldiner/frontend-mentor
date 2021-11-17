@@ -4,7 +4,7 @@ Here you'll find a collection of the exercises I complete for [Frontend Mentor](
 **Link to project:** https://github.com/geraldiner/frontend-mentor/article-preview
 
 
-## How It's Made:
+## How It's Made
 
 Each project had a foundation in HTML, CSS, and JavaScript. Depending on the project and what I'm exploring or practicing at the time, they could also include: React, Vue, TailwindCSS, and more.
 
